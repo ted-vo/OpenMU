@@ -400,7 +400,7 @@ public abstract class EditBase : ComponentBase, IAsyncDisposable
         }
         catch (Exception ex)
         {
-            this.Logger?.LogError(ex, "Unexpected error when loading data: {ex}", ex);
+            this.Logger?.LogError(ex, "Unexpected error when loading data.");
         }
     }
 }
